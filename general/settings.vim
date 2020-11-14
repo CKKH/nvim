@@ -96,3 +96,5 @@ nnoremap ; :
 " do syntax rendering on buffer enter/leave
 autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
+
+g:python3_host_prog
